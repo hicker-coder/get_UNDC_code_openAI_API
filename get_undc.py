@@ -9,7 +9,7 @@ from constants import API_KEY_ENV_VAR,SYSTEM_PROMPT,OUTPUT_FINAL_FILE,OUTPUT_PRO
 
 
 # Set the OpenAI API key from environment variable
-openai.api_key ="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"
+openai.api_key =""
 
 def extract_product_info(df, index):
     """
